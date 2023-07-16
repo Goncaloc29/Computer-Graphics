@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  width: 300vh;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titulo{
+  color: rgb(255, 255, 255);
+}
+.valor {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.alinha {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
